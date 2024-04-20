@@ -182,17 +182,27 @@ header {
 
 main .section1 {
   display: flex;
-  justify-content: space-between;
-  font-display: row;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 20px;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
 
+}
+
+.maphoto,
+.apropos {
+  padding: 30px;
 }
 
 #apropos {
   text-align: center;
   margin: 20px 0;
+}
+
+.competences {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
 /*responsive*/
@@ -349,6 +359,7 @@ main .section1 {
 
 .skills {
   margin-top: -1px;
+  width: 60%;
 }
 
 
