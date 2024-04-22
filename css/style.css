@@ -115,10 +115,12 @@ header {
 
 .presentation h2 {
   font-weight: 700;
+  font-size: 50px;
 }
 
 .presentation h3 {
   font-weight: 200;
+  font-size: 36px;
 }
 
 .action-btn:hover {
@@ -551,14 +553,17 @@ container .contactInfo {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-
+  background: rgba(224, 222, 222, 0.945);
 }
 
 .contact .content h2 {
   font-size: 36px;
   font-weight: 500;
   text-align: center;
+}
+
+.section2 {
+  background: rgba(224, 222, 222, 0.945);
 }
 
 .section2 h2 {
@@ -568,6 +573,12 @@ container .contactInfo {
 }
 
 .portfolio h2 {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#portfolio {
   font-size: 36px;
   font-weight: 500;
   text-align: center;
@@ -609,13 +620,17 @@ container .contactInfo {
 .container .contactInfo .box .ico {
   min-width: 60px;
   height: 60px;
-  background: #fff;
+  background: #d13639;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
   font-size: 22px;
 
+}
+
+.container .contactInfo .box .ico i {
+  color: #ffff;
 }
 
 .container .contactInfo .box .text {
