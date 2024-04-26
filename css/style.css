@@ -303,6 +303,10 @@ main .section1 {
 }
 
 
+.skills {
+  margin-top: -70px;
+  width: 60%;
+}
 
 
 
@@ -333,7 +337,7 @@ main .section1 {
   content: attr(per);
   position: absolute;
   padding: 4px 6px;
-  background: ;
+
   border-radius: 4px;
   font-size: 12px;
   top: -35px;
@@ -368,10 +372,6 @@ main .section1 {
   margin-top: 30px;
 }
 
-.skills {
-  margin-top: -1px;
-  width: 60%;
-}
 
 
 .block-card {
@@ -729,16 +729,20 @@ container .contactInfo {
     display: flex;
     flex-direction: column;
     padding: 20px auto;
+
   }
 
-  .competences .code {
+  .competences .code img {
     width: 100%;
   }
 
   .skills {
     width: 100%;
-    padding-bottom: 20px;
+    margin-bottom: 80px;
+    margin-top: 0;
   }
+
+
 
   .maphoto {
     width: 100%;
